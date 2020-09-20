@@ -19,3 +19,14 @@
 #### RBDSM
 * MySQL
 * PostgreSQL
+
+#### Development Tools
+* GitHub
+* Bitbucket
+
+#### Tools
+* Postman
+* TestNG
+* XCode
+* Jenkings
+* Web browser tools
