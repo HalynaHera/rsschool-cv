@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color:#938c9c7a;
+    font-size: 20px;
+    min-height: 100vh;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.calcInput{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+#inputNum{
+    width: 100%;
+    height: 45px;
+    font-size: 1.8em;
+    font-weight: bold;
+    border: solid 3px #ffffff;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: right;
+    padding: 0 10px;    
+}
+.calcBody{
+    width: 240px;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.calcNumbers, .operators{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 240px;
+}
+.calc-number, .calc-operator{
+    min-width: 45px;
+    width: 45px;
+    height: 45px;
+    border: solid 2px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+.row-num{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+}
+.bottom-row{
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.percent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;    
+}
+#equals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    width: 100%;
+    margin-left: 10px;
+    height: 45px;
+    border: solid 2px white;
+}
